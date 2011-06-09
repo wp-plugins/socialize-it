@@ -29,7 +29,7 @@ N/A
 2. Screenshot Front-end
 
 == Changelog ==
-N/A
+
 
 == Arbitrary section ==
 N/A
