@@ -17,7 +17,7 @@ if ( !class_exists('Config') ) :
 		const plugin_name = 'Socialize It!';
 		const min_php_version = '5.2';
 		const min_wp_version = '3.0';
-		const domain = HB_PLUGIN_DIR;
+		const domain = 'wp-socialize-it';
 		
 		/**
 		* _get_services_info
