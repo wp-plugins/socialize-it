@@ -10,7 +10,7 @@ Floating social buttons bar.
 == Description ==
 
 Convinient floating social buttons bar with about 40 active icons to share bookmarks in social services. Inspired by <a href="http://share42.com" title="share42.com">Share42</a>.
-You can fine more details about the plugin here: <a href="http://wpsells.com/blog/wordpress-tech/215.html" title="Socialize It!">Socialize It!</a>.
+Live demo: <a href="http://wpsells.com/blog/wordpress-tech/215.html" title="Socialize It!">Socialize It!</a>.
 
 == Installation ==
 
