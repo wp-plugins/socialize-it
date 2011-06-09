@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Socialize It! WordPress plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-06 15:24+0200\n"
+"PO-Revision-Date: 2011-06-06 15:24+0200\n"
+"Last-Translator: Игорь <znamensky98@gmail.com>\n"
+"Language-Team: wpsells.com <info@wpsells.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/admin-page.php:4
+msgid "Socialize It!: Settings"
+msgstr ""
+
+#: ../inc/admin-page.php:124
+msgid "You must select at least one icon"
+msgstr ""
+
+#: ../inc/admin-page.php:158
+msgid "Your settings saved successfully"
+msgstr ""
+
+#: ../inc/admin-page.php:161
+msgid "Settings failed - try later, please"
+msgstr ""
+
+#: ../inc/admin-page.php:176
+msgid "Point the size and select the icons you would like to use at your blog"
+msgstr ""
+
+#: ../inc/admin-page.php:180
+msgid "Icons total"
+msgstr ""
+
+#: ../inc/admin-page.php:188
+msgid "Select/unselect all"
+msgstr ""
+
+#: ../inc/admin-page.php:188
+msgid "Invert selection"
+msgstr ""
+
+#: ../inc/admin-page.php:190
+msgid "You can change the order of the icons just dragging them with mouse"
+msgstr ""
+
+#: ../inc/admin-page.php:203
+msgid "Set the options"
+msgstr ""
+
+#: ../inc/admin-page.php:206
+msgid "Icons bar type"
+msgstr ""
+
+#: ../inc/admin-page.php:207
+msgid "floating vertical"
+msgstr ""
+
+#: ../inc/admin-page.php:208
+msgid "gorisontal (under a post/page)"
+msgstr ""
+
+#: ../inc/admin-page.php:210
+msgid "Top indent"
+msgstr ""
+
+#: ../inc/admin-page.php:210
+msgid "Indent in pixels from the top of the visible screen area"
+msgstr ""
+
+#: ../inc/admin-page.php:213
+msgid "Alignment"
+msgstr ""
+
+#: ../inc/admin-page.php:213
+msgid "Icons bar location about the page template"
+msgstr ""
+
+#: ../inc/admin-page.php:214
+msgid "left"
+msgstr ""
+
+#: ../inc/admin-page.php:214
+msgid "right"
+msgstr ""
+
+#: ../inc/admin-page.php:216
+msgid "Side indent"
+msgstr ""
+
+#: ../inc/admin-page.php:216
+msgid "Indent in pixels from the left side of the post/page template. When aligning the right to pre-defined value is automatically added 900 pixels. Negative values ​​are permitted"
+msgstr ""
+
+#: ../inc/admin-page.php:219
+#, php-format
+msgid "Add the button &laquo;Download the %s&raquo;"
+msgstr ""
+
+#: ../inc/admin-page.php:220
+msgid "Would be useful to visitors of your blog who wish install this plugin too. Added after all the icons"
+msgstr ""
+
+#: ../inc/admin-page.php:223
+msgid "Save your settings"
+msgstr ""
+
+#: ../inc/admin-page.php:231
+msgid "The plugin`s design based on "
+msgstr ""
+
+#: ../inc/admin-page.php:231
+msgid "the service author is"
+msgstr ""
+
+#: ../lib/Config.php:31
+msgid "Blogger"
+msgstr ""
+
+#: ../lib/Config.php:33
+msgid "Post in Blogger.com!"
+msgstr ""
+
+#: ../lib/Config.php:38
+msgid "BobrDobr"
+msgstr ""
+
+#: ../lib/Config.php:40
+msgid "Bobr It!"
+msgstr ""
+
+#: ../lib/Config.php:45
+msgid "Delicious"
+msgstr ""
+
+#: ../lib/Config.php:47
+msgid "Bookmark with Delicious!"
+msgstr ""
+
+#: ../lib/Config.php:52
+msgid "DesignBump"
+msgstr ""
+
+#: ../lib/Config.php:54
+msgid "Bump it!"
+msgstr ""
+
+#: ../lib/Config.php:59
+msgid "DesignFloat"
+msgstr ""
+
+#: ../lib/Config.php:61
+msgid "Float it!"
+msgstr ""
+
+#: ../lib/Config.php:66
+msgid "digg"
+msgstr ""
+
+#: ../lib/Config.php:68
+msgid "Add to digg!"
+msgstr ""
+
+#: ../lib/Config.php:73
+msgid "evernote"
+msgstr ""
+
+#: ../lib/Config.php:75
+msgid "Add to Evernote!"
+msgstr ""
+
+#: ../lib/Config.php:80
+msgid "facebook"
+msgstr ""
+
+#: ../lib/Config.php:82
+msgid "Share in Facebook!"
+msgstr ""
+
+#: ../lib/Config.php:87
+msgid "FriendFeed"
+msgstr ""
+
+#: ../lib/Config.php:89
+msgid "Add to FriendFeed!"
+msgstr ""
+
+#: ../lib/Config.php:94
+msgid "Google Bookmarks"
+msgstr ""
+
+#: ../lib/Config.php:96
+msgid "Bookmark at Google!"
+msgstr ""
+
+#: ../lib/Config.php:101
+msgid "Google Buzz"
+msgstr ""
+
+#: ../lib/Config.php:103
+msgid "Add to Google Buzz!"
+msgstr ""
+
+#: ../lib/Config.php:108
+msgid "identi"
+msgstr ""
+
+#: ../lib/Config.php:110
+msgid "Add to Identi.ca!"
+msgstr ""
+
+#: ../lib/Config.php:115
+msgid "juick"
+msgstr ""
+
+#: ../lib/Config.php:117
+msgid "Add to Juick!"
+msgstr ""
+
+#: ../lib/Config.php:122
+msgid "LinkedIn"
+msgstr ""
+
+#: ../lib/Config.php:124
+msgid "Add to Linkedin!"
+msgstr ""
+
+#: ../lib/Config.php:129
+msgid "LiveInternet"
+msgstr ""
+
+#: ../lib/Config.php:131
+msgid "Post in LiveInternet!"
+msgstr ""
+
+#: ../lib/Config.php:136
+msgid "LiveJournal"
+msgstr ""
+
+#: ../lib/Config.php:138
+msgid "Post in LiveJournal!"
+msgstr ""
+
+#: ../lib/Config.php:143
+msgid "Mail.Ru"
+msgstr ""
+
+#: ../lib/Config.php:145
+msgid "Share in MyWorld@Mail.Ru!"
+msgstr ""
+
+#: ../lib/Config.php:150
+msgid "memori"
+msgstr ""
+
+#: ../lib/Config.php:152
+msgid "Bookmark at Memori.ru!"
+msgstr ""
+
+#: ../lib/Config.php:157
+msgid "Mister Wong"
+msgstr ""
+
+#: ../lib/Config.php:159
+msgid "Bookmark at Mister Wong!"
+msgstr ""
+
+#: ../lib/Config.php:164
+msgid "mixx"
+msgstr ""
+
+#: ../lib/Config.php:166
+msgid "Add to Mixx!"
+msgstr ""
+
+#: ../lib/Config.php:171
+msgid "MySpace"
+msgstr ""
+
+#: ../lib/Config.php:173
+msgid "Add to MySpace!"
+msgstr ""
+
+#: ../lib/Config.php:178
+msgid "netvibes"
+msgstr ""
+
+#: ../lib/Config.php:180
+msgid "Add to Netvibes!"
+msgstr ""
+
+#: ../lib/Config.php:185
+msgid "newsvine"
+msgstr ""
+
+#: ../lib/Config.php:187
+msgid "Add to Newsvine!"
+msgstr ""
+
+#: ../lib/Config.php:192
+msgid "odnoclassniki"
+msgstr ""
+
+#: ../lib/Config.php:194
+msgid "Add to Odnoclassniki!"
+msgstr ""
+
+#: ../lib/Config.php:199
+msgid "pikabu"
+msgstr ""
+
+#: ../lib/Config.php:201
+msgid "Add to Pikabu!"
+msgstr ""
+
+#: ../lib/Config.php:206
+msgid "posterous"
+msgstr ""
+
+#: ../lib/Config.php:208
+msgid "Add to Posterous!"
+msgstr ""
+
+#: ../lib/Config.php:213
+msgid "reddit"
+msgstr ""
+
+#: ../lib/Config.php:215
+msgid "Add to Reddit!"
+msgstr ""
+
+#: ../lib/Config.php:220
+msgid "rutvit"
+msgstr ""
+
+#: ../lib/Config.php:222
+msgid "Add to RuTvit!"
+msgstr ""
+
+#: ../lib/Config.php:227
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../lib/Config.php:229
+msgid "Add to StumbleUpon!"
+msgstr ""
+
+#: ../lib/Config.php:234
+msgid "technorati"
+msgstr ""
+
+#: ../lib/Config.php:236
+msgid "Add to Technorati!"
+msgstr ""
+
+#: ../lib/Config.php:241
+msgid "tumblr"
+msgstr ""
+
+#: ../lib/Config.php:243
+msgid "Add to Tumblr!"
+msgstr ""
+
+#: ../lib/Config.php:248
+msgid "twitter"
+msgstr ""
+
+#: ../lib/Config.php:250
+msgid "Add to Twitter!"
+msgstr ""
+
+#: ../lib/Config.php:255
+msgid "vkontakte"
+msgstr ""
+
+#: ../lib/Config.php:257
+msgid "Share in Vkontakte!"
+msgstr ""
+
+#: ../lib/Config.php:263
+msgid "Yahoo! Bookmarks"
+msgstr ""
+
+#: ../lib/Config.php:265
+msgid "Bookmark at Yahoo!"
+msgstr ""
+
+#: ../lib/Config.php:270
+msgid "Yandex Bookmarks"
+msgstr ""
+
+#: ../lib/Config.php:272
+msgid "Bookmark at Yandex!"
+msgstr ""
+
+#: ../lib/Config.php:277
+msgid "Ya.ru"
+msgstr ""
+
+#: ../lib/Config.php:279
+msgid "Share in Ya.ru!"
+msgstr ""
+
+#: ../lib/Config.php:284
+msgid "Print"
+msgstr ""
+
+#: ../lib/Config.php:286
+msgid "Print it!"
+msgstr ""
+
+#: ../lib/Config.php:292
+msgid "Subscribe"
+msgstr ""
+
+#: ../lib/Config.php:294
+msgid "Subscribe to feed"
+msgstr ""
+
+#: ../lib/Config.php:304
+msgid "Back"
+msgstr ""
+
+#: ../lib/Config.php:305
+msgid "More"
+msgstr ""
+
+#: ../lib/Config.php:306
+msgid "Download plugin Socialize It!"
+msgstr ""
+
+#: ../lib/Test.php:23
+#, php-format
+msgid "The %s plugin requires PHP %s or newer. Contact your system administrator about updating your version of PHP."
+msgstr ""
+
+#: ../lib/Test.php:43
+#, php-format
+msgid "The %s plugin requires WordPress %s or newer."
+msgstr ""
+
+#: ../lib/Test.php:44
+#, php-format
+msgid "Your version is %s. Please,"
+msgstr ""
+
+#: ../lib/Test.php:46
+msgid "update your WordPress!"
+msgstr ""
+
