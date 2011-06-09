@@ -275,7 +275,7 @@ if ( !class_exists('Config') ) :
 			$services['yandex']['16'] = '-96px -96px';
 			
 			$services['yaru']['name'] = __('Ya.ru', self::domain);
-			$services['yaru']['url'] = '"http://my.ya.ru/posts_add_link.xml?URL=\'+u+\'&title=\'+t+\'';
+			$services['yaru']['url'] = 'http://my.ya.ru/posts_add_link.xml?URL=\'+u+\'&title=\'+t+\'';
 			$services['yaru']['title'] = __('Share in Ya.ru!', self::domain);
 			$services['yaru']['32'] = '-160px -192px';
 			$services['yaru']['24'] = '-120px -144px';
