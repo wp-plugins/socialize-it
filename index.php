@@ -10,9 +10,9 @@ Author URI: http://wpsells.com/blog/
 require_once('lib/Test.php');
 require_once('lib/Config.php');
 require_once('inc/SocializeIt.php');
-add_filter('the_content', 'SocializeIt::bind_buttons');
-add_action('wp_footer', 'SocializeIt::wp_footer');
 add_action('init', 'SocializeIt::initialize');
+add_action('wp_footer', 'SocializeIt::wp_footer');
 add_action('admin_menu', 'SocializeIt::add_menu_item');
 add_action('wp_ajax_submithb', 'SocializeIt::submit_settings');
+add_filter('the_content', 'SocializeIt::bind_buttons');
 /*EOF*/
