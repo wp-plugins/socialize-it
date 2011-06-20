@@ -13,6 +13,8 @@ $panelfloat = $opts['hb_panelfloat'];
 $mtop = $opts['hb_mtop'];
 $mside = $opts['hb_mside'];
 $hblogo = $opts['hb_logo'];
+$hbyoutube = $opts['hb_youtube'];
+$hbflickr = $opts['hb_flickr'];
 ?>
 <script type='text/javascript'>
 
@@ -20,10 +22,52 @@ jQuery(document).ready(function() {
 	
 	var imgpath = '<?php echo HB_IMG_URL; ?>';
 	var size = <?php if (!$mysize) echo '32'; else echo $mysize; ?>;
+	var hbyoutube = '<?php echo $hbyoutube; ?>';
+	var hbflickr = '<?php echo $hbflickr; ?>';
 
 	jQuery('div.section').not('.visible').hide();
 
 	var input = jQuery('#icons li input');
+	
+	function check_youtube() {
+		
+		var youtubeinput = true;
+		var youtubeinputmsg = '<?php _e('Enter the name of your YouTube account', Config::domain); ?>';
+		if (hbyoutube) {
+			youtubeinput = hbyoutube;
+			youtubeinputmsg = '<?php _e('Check the name of your YouTube account', Config::domain); ?>';
+		}
+				
+		var flickrinput = true;
+		var flickrinputmsg = '<?php _e('Enter the name of your Flickr account', Config::domain); ?>';
+				
+		if (hbflickr) {
+			flickrinput = hbflickr;
+			flickrinputmsg = '<?php _e('Check the name of your Flickr account', Config::domain); ?>';
+		}
+		apprise(youtubeinputmsg + ':', {'input':youtubeinput,'animate':true,'textOk':'<?php _e('Corrert', Config::domain); ?>','textCancel':'<?php _e('Switch off', Config::domain); ?>'}, function(r){
+			if(r) { 
+				jQuery('#hiddens').append('<input type="hidden" name="youtubeaccname" value="' + r + '" />');
+				jQuery('#youtube').attr({checked: true}).parents('li').addClass('selected');
+				hbyoutube = jQuery('input[name="youtubeaccname"]').val();
+			}
+			else {
+				jQuery('#youtube').attr({checked: false}).parents('li').removeClass('selected');
+			}
+					
+			if (jQuery('#flickr')) {
+				apprise(flickrinputmsg + ':', {'input':flickrinput,'animate':true, 'textOk':'<?php _e('Corrert', Config::domain); ?>','textCancel':'<?php _e('Switch off', Config::domain); ?>'}, function(r){
+					if(r) { 
+						jQuery('#hiddens').append('<input type="hidden" name="flickraccname" value="' + r + '" />');
+						jQuery('#flickr').attr({checked: true}).parents('li').addClass('selected');
+						hbflickr = jQuery('input[name="flickraccname"]').val();
+					}
+					else jQuery('#flickr').attr({checked: false}).parents('li').removeClass('selected');
+				});
+			}
+		});
+		
+	}
 
 	jQuery('#all').click(function() {
 		if (jQuery('#icons li input:checked').length > 0) {
@@ -34,6 +78,7 @@ jQuery(document).ready(function() {
 			input.each(function() {
 				jQuery(this).attr({checked: true}).parents('li').addClass('selected');
 			})
+			check_youtube();	
 		}
 	})
 
@@ -45,6 +90,7 @@ jQuery(document).ready(function() {
 				jQuery(this).attr({checked: true}).parents('li').addClass('selected');
 			}
 		})
+		check_youtube();	
 	})
 
 	jQuery('#icons ol').sortable({
@@ -53,7 +99,49 @@ jQuery(document).ready(function() {
 	jQuery('#icons ol').disableSelection();
 
 	input.change(function() {
-		jQuery(this).parents('li').toggleClass('selected');
+		
+		var youtubeinput = true;
+		var youtubeinputmsg = '<?php _e('Enter the name of your YouTube account', Config::domain); ?>';
+		
+		if (hbyoutube) {
+			youtubeinput = hbyoutube;
+			youtubeinputmsg = '<?php _e('Check the name of your YouTube account', Config::domain); ?>';
+		}
+		
+		var flickrinput = true;
+		var flickrinputmsg = '<?php _e('Enter the name of your Flickr account', Config::domain); ?>';
+		
+		if (hbflickr) {
+			flickrinput = hbflickr;
+			flickrinputmsg = '<?php _e('Check the name of your Flickr account', Config::domain); ?>';
+		}
+		
+		if (jQuery(this).attr('id') == 'youtube' && jQuery(this).attr({checked: false})) {
+			apprise(youtubeinputmsg + ':', {'input':youtubeinput,'animate':true, 'textOk':'<?php _e('Corrert', Config::domain); ?>','textCancel':'<?php _e('Switch off', Config::domain); ?>'}, function(r){
+				if(r) { 
+					jQuery('#hiddens').append('<input type="hidden" name="youtubeaccname" value="' + r + '" />');
+					jQuery('#youtube').attr({checked: true}).parents('li').addClass('selected');
+					hbyoutube = jQuery('input[name="youtubeaccname"]').val();
+				}
+				else {
+					jQuery('#youtube').attr({checked: false}).parents('li').removeClass('selected');
+				}
+			});
+		}
+		else if (jQuery(this).attr('id') == 'flickr' && jQuery(this).attr({checked: false})) {
+			apprise(flickrinputmsg + ':', {'input':flickrinput,'animate':true, 'textOk':'<?php _e('Corrert', Config::domain); ?>','textCancel':'<?php _e('Switch off', Config::domain); ?>'}, function(r){
+				if(r) { 
+					jQuery('#hiddens').append('<input type="hidden" name="flickraccname" value="' + r + '" />');
+					jQuery('#flickr').attr({checked: true}).parents('li').addClass('selected');
+					hbflickr = jQuery('input[name="flickraccname"]').val();
+				}
+				else jQuery('#flickr').attr({checked: false}).parents('li').removeClass('selected');
+			});
+		}
+		else {
+			jQuery(this).parents('li').toggleClass('selected');
+		}
+		
 		jQuery('#error').clearQueue().fadeOut(250, function() { jQuery(this).remove(); });
 	})
 
@@ -118,7 +206,7 @@ jQuery(document).ready(function() {
 			}
 		)
 	})
-
+	
 	function error() {
 		jQuery('#error').remove();
 		jQuery('#hbsocializesubmit').before('<div id="error"><?php _e('You must select at least one icon', Config::domain); ?>!</div>');
@@ -141,6 +229,7 @@ jQuery(document).ready(function() {
 			var hblogo = 'yes';
 			if (jQuery('input[name="hblogo"]:checked').val()) hblogo = 'yes';
 			else hblogo = 'no';
+
 			var data = {
 				action: 'submithb',
 				size: size,
@@ -150,6 +239,8 @@ jQuery(document).ready(function() {
 				hbmtop: jQuery('input[name="mtop"]').val(),
 				hbmside: jQuery('input[name="mside"]').val(),
 				hblogo: hblogo,
+				hbyoutube: hbyoutube,
+				hbflickr: hbflickr,
 				hb_admin_wpnonce: jQuery('input[name="hb_admin_wpnonce"]').val(),
 			};
 
@@ -197,7 +288,8 @@ jQuery(document).ready(function() {
 
 		</ol>
 
-		<input type="hidden" name="size" value="32" />
+		<div id="hiddens"></div>
+		
 	</div><!-- #icons -->
 
 	<h3><?php _e('Set the options', Config::domain); ?>:</h3>

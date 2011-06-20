@@ -6,8 +6,8 @@
 */
 if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You are not allowed to call this page directly.'); }
 
-if(!defined('HB_PLUGIN_PATH')) define('HB_PLUGIN_PATH', str_replace('lib/', '', plugin_dir_path( __FILE__ )));
 if(!defined('HB_PLUGIN_DIR')) define('HB_PLUGIN_DIR', 'socialize-it');
+if(!defined('HB_PLUGIN_PATH')) define('HB_PLUGIN_PATH', str_replace('lib/', '', plugin_dir_path( __FILE__ )));
 if(!defined('HB_IMG_URL')) define('HB_IMG_URL', WP_PLUGIN_URL.'/'.HB_PLUGIN_DIR.'/img/');
 
 if ( !class_exists('Config') ) :
@@ -26,6 +26,10 @@ if ( !class_exists('Config') ) :
 		* @returns array of data.
 		*/
 		public static function _get_services_info() {
+		
+			$opts = SocializeIt::get_settings();
+			$hbyoutubeaccname = $opts['hb_youtube'];
+			$hbflickraccname = $opts['hb_flickr'];
 		
 			$services = array();
 			$services['blogger']['name'] = __('Blogger', self::domain);
@@ -281,6 +285,27 @@ if ( !class_exists('Config') ) :
 			$services['yaru']['24'] = '-120px -144px';
 			$services['yaru']['16'] = '-80px -96px';
 			
+			$services['youtube']['name'] = __('youtube', self::domain);
+			$services['youtube']['url'] = 'http://www.youtube.com/'.$hbyoutubeaccname;
+			$services['youtube']['title'] = __('Watch on YouTube!', self::domain);
+			$services['youtube']['32'] = '-96px -192px';
+			$services['youtube']['24'] = '-72px -144px';
+			$services['youtube']['16'] = '-48px -96px';
+			
+			$services['flickr']['name'] = __('flickr', self::domain);
+			$services['flickr']['url'] = 'http://www.flickr.com/'.$hbflickraccname;
+			$services['flickr']['title'] = __('See photos on Flickr!', self::domain);
+			$services['flickr']['32'] = '-288px -32px';
+			$services['flickr']['24'] = '-216px -24px';
+			$services['flickr']['16'] = '-144px -16px';
+			
+			$services['rss']['name'] = __('Subscribe', self::domain);
+			$services['rss']['url'] = site_url().'/feed/';
+			$services['rss']['title'] = __('Subscribe to feed', self::domain);
+			$services['rss']['32'] = '-64px -224px';
+			$services['rss']['24'] = '-48px -168px';
+			$services['rss']['16'] = '-32px -112px';
+			
 			$services['print']['name'] = __('Print', self::domain);
 			$services['print']['url'] = '#';
 			$services['print']['title'] = __('Print it!', self::domain);
@@ -288,15 +313,6 @@ if ( !class_exists('Config') ) :
 			$services['print']['32'] = '-64px -160px';
 			$services['print']['24'] = '-48px -120px';
 			$services['print']['16'] = '-32px -80px';
-			
-			/*
-			$services['rss']['name'] = __('Subscribe', self::domain);
-			$services['rss']['url'] = get_permalink().'/feed';
-			$services['rss']['title'] = __('Subscribe to feed', self::domain);
-			$services['rss']['32'] = '-64px -224px';
-			$services['rss']['24'] = '-48px -168px';
-			$services['rss']['16'] = '-32px -112px';
-			*/
 			
 			return $services;
 			
