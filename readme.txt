@@ -3,7 +3,7 @@ Contributors: wpsells.com
 Tags: bookmarks
 Requires at least: 3.0
 Tested up to: 3.1.3
-Stable tag: 1.0
+Stable tag: 1.2
 
 Floating social buttons bar.
 
@@ -29,6 +29,10 @@ N/A
 2. Screenshot Front-end
 
 == Changelog ==
+1.2
+------------------------------------
+1. Added Youtube and Flickr buttons
+2. Compatibility with WPMU themes
 
 
 == Arbitrary section ==
