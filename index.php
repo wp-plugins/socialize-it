@@ -4,7 +4,7 @@ Plugin Name: Socialize It!
 Plugin URI: http://wpsells.com/blog/wordpress-tech/215.html
 Description: Floating social buttons bar. Based on Share42.com
 Author: Igor Ocheretny
-Version: 1.2
+Version: 1.3
 Author URI: http://wpsells.com/blog/
 */
 require_once('lib/Test.php');

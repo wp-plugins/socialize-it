@@ -2,8 +2,8 @@
 Contributors: wpsells.com
 Tags: bookmarks
 Requires at least: 3.0
-Tested up to: 3.1.3
-Stable tag: 1.2
+Tested up to: 3.2
+Stable tag: 1.3
 
 Floating social buttons bar.
 
@@ -33,6 +33,12 @@ N/A
 ------------------------------------
 1. Added Youtube and Flickr buttons
 2. Compatibility with WPMU themes
+
+1.3
+------------------------------------
+1. Added Google +1 button
+2. Added "PowerInviter" button - a new generation of "Tell a friend" widgets with many additional "PRO" features and viral marketing principles (description inside the plugin).
+3. Menu link for the plugin options moved to «settings» menu.
 
 
 == Arbitrary section ==
