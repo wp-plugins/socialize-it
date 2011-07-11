@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Socialize It! WordPress plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-11 16:02+0200\n"
+"PO-Revision-Date: 2011-07-11 16:05+0200\n"
+"Last-Translator: Игорь <znamensky98@gmail.com>\n"
+"Language-Team: wpsells.com <info@wpsells.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/admin-page.php:4
+msgid "Socialize It!: Settings"
+msgstr "Socialize It!: Установки"
+
+#: ../inc/admin-page.php:46
+#: ../inc/admin-page.php:115
+msgid "Enter the name of your YouTube account"
+msgstr "Введите имя Вашего аккаунта YouTube"
+
+#: ../inc/admin-page.php:49
+#: ../inc/admin-page.php:119
+msgid "Check the name of your YouTube account"
+msgstr "Проверьте имя Вашего аккаунта YouTube"
+
+#: ../inc/admin-page.php:53
+#: ../inc/admin-page.php:123
+msgid "Enter the name of your Flickr account"
+msgstr "Введите имя Вашего аккаунта Flickr"
+
+#: ../inc/admin-page.php:57
+#: ../inc/admin-page.php:127
+msgid "Check the name of your Flickr account"
+msgstr "Проверьте имя Вашего аккаунта Flickr"
+
+#: ../inc/admin-page.php:59
+#: ../inc/admin-page.php:70
+#: ../inc/admin-page.php:131
+#: ../inc/admin-page.php:143
+msgid "Corrert"
+msgstr "Правильно"
+
+#: ../inc/admin-page.php:59
+#: ../inc/admin-page.php:70
+#: ../inc/admin-page.php:131
+#: ../inc/admin-page.php:143
+msgid "Switch off"
+msgstr "Отключить"
+
+#: ../inc/admin-page.php:223
+msgid "You must select at least one icon"
+msgstr "Надо выбрать хотя бы одну иконку"
+
+#: ../inc/admin-page.php:262
+msgid "Your settings saved successfully"
+msgstr "Ваши настройки успешно сохранены"
+
+#: ../inc/admin-page.php:265
+msgid "Settings failed - try later, please"
+msgstr "Неудалось сохранить настройки - попробуйте сделать это позже"
+
+#: ../inc/admin-page.php:280
+#, fuzzy
+msgid "Choose the size and icons which you would like to use at your blog"
+msgstr "Выберите размер и отметьте иконки сервисов, которые хотите использовать на своем блоге"
+
+#: ../inc/admin-page.php:284
+msgid "Icons total"
+msgstr "Всего сервисов"
+
+#: ../inc/admin-page.php:292
+msgid "Select/unselect all"
+msgstr "Выбрать/снять все"
+
+#: ../inc/admin-page.php:292
+msgid "Invert selection"
+msgstr "Инвертировать выделение"
+
+#: ../inc/admin-page.php:294
+msgid "You can change the order of the icons just dragging them with mouse"
+msgstr "Порядок иконок можно менять, перетаскивая их мышью"
+
+#: ../inc/admin-page.php:308
+msgid "Options"
+msgstr "Выберите нужные опции"
+
+#: ../inc/admin-page.php:311
+msgid "Icons bar type"
+msgstr "Тип панели с иконками"
+
+#: ../inc/admin-page.php:312
+msgid "floating vertical"
+msgstr "вертикальная &laquo;плавающая&raquo;"
+
+#: ../inc/admin-page.php:313
+msgid "horizontal (under a post/page)"
+msgstr "горизонтальная (под текстом поста/страницы)"
+
+#: ../inc/admin-page.php:315
+msgid "Top indent"
+msgstr "Отступ сверху"
+
+#: ../inc/admin-page.php:315
+msgid "Indent in pixels from the top of the visible screen area"
+msgstr "Отступ в пикселях от верхнего края видимой области экрана"
+
+#: ../inc/admin-page.php:318
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: ../inc/admin-page.php:318
+msgid "Icons bar location about the page template"
+msgstr "Расположение панели с кнопками относительно шаблона страницы"
+
+#: ../inc/admin-page.php:319
+#, fuzzy
+msgid "Left"
+msgstr "слева"
+
+#: ../inc/admin-page.php:319
+#, fuzzy
+msgid "Right"
+msgstr "справа"
+
+#: ../inc/admin-page.php:321
+msgid "Side indent"
+msgstr "Боковой отступ"
+
+#: ../inc/admin-page.php:321
+msgid "Indent in pixels from the left side of the post/page template. When aligning the right to pre-defined value is automatically added 900 pixels. Negative values ​​are permitted"
+msgstr "Отступ в пикселях от левого края шаблона с текстом поста (страницы). При выравнивании справа к установленному значению автоматически прибавляется 900 пикселей. Возможны отрицательные значения"
+
+#: ../inc/admin-page.php:324
+msgid "Display the <Download &laquo;Socialize It!&raquo; Plugin> icon"
+msgstr "Добавить кнопку «Скачать плагин Socialize It!»"
+
+#: ../inc/admin-page.php:325
+msgid "Would be useful to visitors of your blog who wish install this plugin too. Added after all the icons"
+msgstr "Будет полезна посетителям вашего блога, которые пожелают установить себе такой же плагин. Добавляется после всех иконок"
+
+#: ../inc/admin-page.php:328
+#: ../lib/Config.php:323
+msgid "PowerInviter"
+msgstr "InviteMaster"
+
+#: ../inc/admin-page.php:330
+msgid "Do you want effortlessly boost the number of visitors, subscribers, affiliates, and sales?!"
+msgstr "Хотите увеличить число посетителей, подписчиков, партнеров и продаж БЕЗ УСИЛИЙ?"
+
+#: ../inc/admin-page.php:331
+msgid "New Social Marketing Tool will increase traffic to your blog"
+msgstr "Новый инструмент социального маркетинга поможет вам сделать это!"
+
+#: ../inc/admin-page.php:333
+msgid "PowerInviter represents a new generation of \"Tell a friend\" widgets with many additional \"PRO\" features and viral marketing principles"
+msgstr "InviteMaster - это новое поколение программ \"Расскажи другу\" со множеством дополнений и принципами \"вирусного\" маркетинга"
+
+#: ../inc/admin-page.php:335
+msgid "Without interesting rewards, only a few visitors will feel the urge to tell their friends about your site, so PowerInviter creates motivation: people will get gifts for their recommendations!"
+msgstr "Без интересного вознаграждения мало кто пожелает рекомендовать вас, поэтому InviteMaster создает мотивацию:<br />люди будут получать подарки за высланные рекомендации и переходы на ваш сайт!"
+
+#: ../inc/admin-page.php:336
+msgid "It is precisely this fact that explains the MULTIPLE EFFECTIVENESS of PowerInviter as compared with other \"Tell a friend\" solutions"
+msgstr "Именно эта особенность обеспечивает многократную эффективность по сравнению с обычными формами \"Рассказать другу\""
+
+#: ../inc/admin-page.php:340
+msgid "This button allows people to recommend any page (post) to their friends with the title and short page description (teaser)"
+msgstr "Эта кнопка позволит вашим посетителям рекомендовать текущую страницу друзьям.<br />В тексте рекомендации будет указан заголовок страницы (поста) и краткое описание (тизер)"
+
+#: ../inc/admin-page.php:341
+msgid "The average effectiveness of the recommendations emails is up to <strong>60%</strong>; such a result is impossible using any other kind of advertising"
+msgstr "Эффективность рекомендаций доходит до <strong>60%</strong>, подобного результата не даст ни один вид рекламы.<br />Рассылка писем с подарками производится автоматически, поэтому вам ДЕЙСТВИТЕЛЬНО ничего не надо делать"
+
+#: ../inc/admin-page.php:344
+msgid "Your \"Tell a friend\" message and the bonuses list are being created automatically with every click on the \"Recommend it\" button"
+msgstr "Без указания имени пользователя и ID формы - страница рекомендаций и бонусы создаются автоматически при каждом нажатии на кнопку \"Рекомендовать\""
+
+#: ../inc/admin-page.php:345
+msgid "Click Here for a Live Demonstration"
+msgstr "Нажмите сюда для демонстрации"
+
+#: ../inc/admin-page.php:348
+msgid "To use the entire features and ability to change the \"Tell a friend\" message and bonuses list, you need to register at PowerInviter.com"
+msgstr "Чтобы использовать все возможности рекомендаций, изменять тексты и правила получения бонусов за приглашения друзей,<br />вам надо открыть аккаунт в сервисе рекомендаций InviteMaster.ru"
+
+#: ../inc/admin-page.php:349
+msgid "It is completely FREE! Click"
+msgstr "Это абсолютно бесплатно! Кликните"
+
+#: ../inc/admin-page.php:349
+msgid "here"
+msgstr "здесь"
+
+#: ../inc/admin-page.php:349
+msgid "to open an account"
+msgstr "чтобы открыть аккаунт в InviteMaster"
+
+#: ../inc/admin-page.php:351
+msgid "After registering and creating a \"Tell a friend\" form, enter your username (login) and Form ID here"
+msgstr "После регистрации, введите свое имя пользователя и идентификатор созданной формы рекомендации в эти поля"
+
+#: ../inc/admin-page.php:353
+msgid "Your PowerInviter Username (login)"
+msgstr "Ваше имя пользователя в сервисе InviteMaster"
+
+#: ../inc/admin-page.php:354
+msgid "Your PowerInviter Form ID"
+msgstr "ID формы рекомендации"
+
+#: ../inc/admin-page.php:356
+#, fuzzy
+msgid "Save Settings!"
+msgstr "Сохранить настройки"
+
+#: ../inc/admin-page.php:364
+msgid "The plugin`s design based on "
+msgstr "Дизайн плагина основан на скрипте кнопок социальных закладок и сетей"
+
+#: ../inc/admin-page.php:364
+msgid "the service author is"
+msgstr "автор скрипта"
+
+#: ../inc/SocializeIt.php:1
+#, fuzzy
+msgid "Socialize It!"
+msgstr "Socialize It!: Установки"
+
+#: ../lib/Config.php:41
+msgid "Blogger"
+msgstr "Blogger"
+
+#: ../lib/Config.php:43
+msgid "Post in Blogger.com!"
+msgstr "Опубликовать в Blogger.com!"
+
+#: ../lib/Config.php:48
+msgid "BobrDobr"
+msgstr "БобрДобр"
+
+#: ../lib/Config.php:50
+msgid "Bobr It!"
+msgstr "Забобрить!"
+
+#: ../lib/Config.php:55
+msgid "Delicious"
+msgstr "Delicious"
+
+#: ../lib/Config.php:57
+msgid "Bookmark with Delicious!"
+msgstr "Сохранить закладку в Delicious!"
+
+#: ../lib/Config.php:62
+msgid "DesignBump"
+msgstr "DesignBump"
+
+#: ../lib/Config.php:64
+msgid "Bump it!"
+msgstr "Отправить в DesignBump!"
+
+#: ../lib/Config.php:69
+msgid "DesignFloat"
+msgstr "DesignFloat"
+
+#: ../lib/Config.php:71
+msgid "Float it!"
+msgstr "Отправить в DesignFloat!"
+
+#: ../lib/Config.php:76
+msgid "digg"
+msgstr "digg"
+
+#: ../lib/Config.php:78
+msgid "Add to digg!"
+msgstr "Добавить в digg!"
+
+#: ../lib/Config.php:83
+msgid "evernote"
+msgstr "evernote"
+
+#: ../lib/Config.php:85
+msgid "Add to Evernote!"
+msgstr "Добавить в Evernote!"
+
+#: ../lib/Config.php:90
+msgid "facebook"
+msgstr "facebook"
+
+#: ../lib/Config.php:92
+msgid "Share in Facebook!"
+msgstr "Поделиться в Facebook!"
+
+#: ../lib/Config.php:97
+msgid "FriendFeed"
+msgstr "FriendFeed"
+
+#: ../lib/Config.php:99
+msgid "Add to FriendFeed!"
+msgstr "Добавить в FriendFeed!"
+
+#: ../lib/Config.php:104
+msgid "Google Bookmarks"
+msgstr "Google Bookmarks"
+
+#: ../lib/Config.php:106
+msgid "Bookmark at Google!"
+msgstr "Сохранить закладку в Google!"
+
+#: ../lib/Config.php:111
+msgid "Google Buzz"
+msgstr "Google Buzz"
+
+#: ../lib/Config.php:113
+msgid "Add to Google Buzz!"
+msgstr "Добавить в Google Buzz!"
+
+#: ../lib/Config.php:118
+msgid "identi"
+msgstr "identi"
+
+#: ../lib/Config.php:120
+msgid "Add to Identi.ca!"
+msgstr "Добавить в Identi.ca!"
+
+#: ../lib/Config.php:125
+msgid "juick"
+msgstr "juick"
+
+#: ../lib/Config.php:127
+msgid "Add to Juick!"
+msgstr "Добавить в Juick!"
+
+#: ../lib/Config.php:132
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../lib/Config.php:134
+msgid "Add to Linkedin!"
+msgstr "Добавить в Linkedin!"
+
+#: ../lib/Config.php:139
+msgid "LiveInternet"
+msgstr "LiveInternet"
+
+#: ../lib/Config.php:141
+msgid "Post in LiveInternet!"
+msgstr "Опубликовать в LiveInternet!"
+
+#: ../lib/Config.php:146
+msgid "LiveJournal"
+msgstr "ЖЖ"
+
+#: ../lib/Config.php:148
+msgid "Post in LiveJournal!"
+msgstr "Опубликовать в ЖЖ!"
+
+#: ../lib/Config.php:153
+msgid "Mail.Ru"
+msgstr "Mail.Ru"
+
+#: ../lib/Config.php:155
+msgid "Share in MyWorld@Mail.Ru!"
+msgstr "Поделиться в MyWorld@Mail.Ru!"
+
+#: ../lib/Config.php:160
+msgid "memori"
+msgstr "memori"
+
+#: ../lib/Config.php:162
+msgid "Bookmark at Memori.ru!"
+msgstr "Сохранить закладку в Memori.ru!"
+
+#: ../lib/Config.php:167
+msgid "Mister Wong"
+msgstr "Мистер Вонг"
+
+#: ../lib/Config.php:169
+msgid "Bookmark at Mister Wong!"
+msgstr "Сохранить закладку в Мистер Вонг!"
+
+#: ../lib/Config.php:174
+msgid "mixx"
+msgstr "mixx"
+
+#: ../lib/Config.php:176
+msgid "Add to Mixx!"
+msgstr "Добавить в Mixx!"
+
+#: ../lib/Config.php:181
+msgid "MySpace"
+msgstr "MySpace"
+
+#: ../lib/Config.php:183
+msgid "Add to MySpace!"
+msgstr "Добавить в MySpace!"
+
+#: ../lib/Config.php:188
+msgid "netvibes"
+msgstr "netvibes"
+
+#: ../lib/Config.php:190
+msgid "Add to Netvibes!"
+msgstr "Добавить в Netvibes!"
+
+#: ../lib/Config.php:195
+msgid "newsvine"
+msgstr "newsvine"
+
+#: ../lib/Config.php:197
+msgid "Add to Newsvine!"
+msgstr "Добавить в Newsvine!"
+
+#: ../lib/Config.php:202
+msgid "odnoclassniki"
+msgstr "Одноклассники"
+
+#: ../lib/Config.php:204
+msgid "Add to Odnoclassniki!"
+msgstr "Добавить в Одноклассники!"
+
+#: ../lib/Config.php:209
+msgid "pikabu"
+msgstr "pikabu"
+
+#: ../lib/Config.php:211
+msgid "Add to Pikabu!"
+msgstr "Добавить в Pikabu!"
+
+#: ../lib/Config.php:216
+msgid "posterous"
+msgstr "posterous"
+
+#: ../lib/Config.php:218
+msgid "Add to Posterous!"
+msgstr "Добавить в Posterous!"
+
+#: ../lib/Config.php:223
+msgid "reddit"
+msgstr "reddit"
+
+#: ../lib/Config.php:225
+msgid "Add to Reddit!"
+msgstr "Добавить в Reddit!"
+
+#: ../lib/Config.php:230
+msgid "rutvit"
+msgstr "РуТвит"
+
+#: ../lib/Config.php:232
+msgid "Add to RuTvit!"
+msgstr "Добавить в РуТвит!"
+
+#: ../lib/Config.php:237
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: ../lib/Config.php:239
+msgid "Add to StumbleUpon!"
+msgstr "Добавить в StumbleUpon!"
+
+#: ../lib/Config.php:244
+msgid "technorati"
+msgstr "technorati"
+
+#: ../lib/Config.php:246
+msgid "Add to Technorati!"
+msgstr "Добавить в Technorati!"
+
+#: ../lib/Config.php:251
+msgid "tumblr"
+msgstr "tumblr"
+
+#: ../lib/Config.php:253
+msgid "Add to Tumblr!"
+msgstr "Добавить в Tumblr!"
+
+#: ../lib/Config.php:258
+msgid "twitter"
+msgstr "twitter"
+
+#: ../lib/Config.php:260
+msgid "Add to Twitter!"
+msgstr "Добавить в Twitter!"
+
+#: ../lib/Config.php:265
+msgid "vkontakte"
+msgstr "Вконтакте"
+
+#: ../lib/Config.php:267
+msgid "Share in Vkontakte!"
+msgstr "Поделиться Вконтакте!"
+
+#: ../lib/Config.php:273
+msgid "Yahoo! Bookmarks"
+msgstr "Yahoo! Закладки"
+
+#: ../lib/Config.php:275
+msgid "Bookmark at Yahoo!"
+msgstr "Сохранить закладку в Yahoo!"
+
+#: ../lib/Config.php:280
+msgid "Yandex Bookmarks"
+msgstr "Яндекс Закладки"
+
+#: ../lib/Config.php:282
+msgid "Bookmark at Yandex!"
+msgstr "Сохранить закладку в Яндекс!"
+
+#: ../lib/Config.php:287
+msgid "Ya.ru"
+msgstr "Я.ру"
+
+#: ../lib/Config.php:289
+msgid "Share in Ya.ru!"
+msgstr "Поделиться в Я.ру!"
+
+#: ../lib/Config.php:294
+msgid "youtube"
+msgstr "youtube"
+
+#: ../lib/Config.php:296
+msgid "Watch on YouTube!"
+msgstr "Смотреть на YouTube!"
+
+#: ../lib/Config.php:301
+msgid "flickr"
+msgstr "flickr"
+
+#: ../lib/Config.php:303
+msgid "See photos on Flickr!"
+msgstr "Смотреть фотографии на Flickr!"
+
+#: ../lib/Config.php:308
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: ../lib/Config.php:310
+msgid "Subscribe to feed"
+msgstr "Подписаться на обновления"
+
+#: ../lib/Config.php:315
+msgid "Print"
+msgstr "Распечатать"
+
+#: ../lib/Config.php:317
+msgid "Print it!"
+msgstr "Распечатать!"
+
+#: ../lib/Config.php:326
+msgid "Tell a friend and get a gift!"
+msgstr "Расскажи другу и получи подарок!"
+
+#: ../lib/Config.php:331
+msgid "Google +1"
+msgstr "Google +1"
+
+#: ../lib/Config.php:333
+msgid "Recommend with Google +1!"
+msgstr "Рекомендовать с помощью Google +1!"
+
+#: ../lib/Config.php:343
+msgid "Back"
+msgstr "назад"
+
+#: ../lib/Config.php:344
+msgid "More"
+msgstr "еще"
+
+#: ../lib/Config.php:345
+msgid "Download plugin Socialize It!"
+msgstr "Скачать плагин Socialize It!"
+
+#: ../lib/Test.php:23
+#, php-format
+msgid "The %s plugin requires PHP %s or newer. Contact your system administrator about updating your version of PHP."
+msgstr "Для работы плагина %s необходима версия PHP %s или выше. Обратитесь к своему хостинг-провайдеру по поводу обновления версии PHP."
+
+#: ../lib/Test.php:43
+#, php-format
+msgid "The %s plugin requires WordPress %s or newer."
+msgstr "Плагин %s работает с версией WordPress %s или выше."
+
+#: ../lib/Test.php:44
+#, php-format
+msgid "Your version is %s. Please,"
+msgstr "Ваша версия %s. Пожалуйста,"
+
+#: ../lib/Test.php:46
+msgid "update your WordPress!"
+msgstr "обновите свой WordPress!"
+
+#~ msgid "Set the options"
+#~ msgstr "Выберите нужные опции"
+
+#~ msgid "Add the button &laquo;Download the %s&raquo;"
+#~ msgstr "Добавить кнопку &laquo;Скачать плагин %s&raquo;"
+
+#~ msgid "Cancel"
+#~ msgstr "Отключить"

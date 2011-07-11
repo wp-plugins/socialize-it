@@ -1,0 +1,592 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Socialize It! WordPress plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-11 16:02+0200\n"
+"PO-Revision-Date: 2011-07-11 16:02+0200\n"
+"Last-Translator: Игорь <znamensky98@gmail.com>\n"
+"Language-Team: wpsells.com <info@wpsells.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/admin-page.php:4
+msgid "Socialize It!: Settings"
+msgstr ""
+
+#: ../inc/admin-page.php:46
+#: ../inc/admin-page.php:115
+msgid "Enter the name of your YouTube account"
+msgstr ""
+
+#: ../inc/admin-page.php:49
+#: ../inc/admin-page.php:119
+msgid "Check the name of your YouTube account"
+msgstr ""
+
+#: ../inc/admin-page.php:53
+#: ../inc/admin-page.php:123
+msgid "Enter the name of your Flickr account"
+msgstr ""
+
+#: ../inc/admin-page.php:57
+#: ../inc/admin-page.php:127
+msgid "Check the name of your Flickr account"
+msgstr ""
+
+#: ../inc/admin-page.php:59
+#: ../inc/admin-page.php:70
+#: ../inc/admin-page.php:131
+#: ../inc/admin-page.php:143
+msgid "Corrert"
+msgstr ""
+
+#: ../inc/admin-page.php:59
+#: ../inc/admin-page.php:70
+#: ../inc/admin-page.php:131
+#: ../inc/admin-page.php:143
+msgid "Switch off"
+msgstr ""
+
+#: ../inc/admin-page.php:223
+msgid "You must select at least one icon"
+msgstr ""
+
+#: ../inc/admin-page.php:262
+msgid "Your settings saved successfully"
+msgstr ""
+
+#: ../inc/admin-page.php:265
+msgid "Settings failed - try later, please"
+msgstr ""
+
+#: ../inc/admin-page.php:280
+msgid "Choose the size and icons which you would like to use at your blog"
+msgstr ""
+
+#: ../inc/admin-page.php:284
+msgid "Icons total"
+msgstr ""
+
+#: ../inc/admin-page.php:292
+msgid "Select/unselect all"
+msgstr ""
+
+#: ../inc/admin-page.php:292
+msgid "Invert selection"
+msgstr ""
+
+#: ../inc/admin-page.php:294
+msgid "You can change the order of the icons just dragging them with mouse"
+msgstr ""
+
+#: ../inc/admin-page.php:308
+msgid "Options"
+msgstr ""
+
+#: ../inc/admin-page.php:311
+msgid "Icons bar type"
+msgstr ""
+
+#: ../inc/admin-page.php:312
+msgid "floating vertical"
+msgstr ""
+
+#: ../inc/admin-page.php:313
+msgid "horizontal (under a post/page)"
+msgstr ""
+
+#: ../inc/admin-page.php:315
+msgid "Top indent"
+msgstr ""
+
+#: ../inc/admin-page.php:315
+msgid "Indent in pixels from the top of the visible screen area"
+msgstr ""
+
+#: ../inc/admin-page.php:318
+msgid "Alignment"
+msgstr ""
+
+#: ../inc/admin-page.php:318
+msgid "Icons bar location about the page template"
+msgstr ""
+
+#: ../inc/admin-page.php:319
+msgid "Left"
+msgstr ""
+
+#: ../inc/admin-page.php:319
+msgid "Right"
+msgstr ""
+
+#: ../inc/admin-page.php:321
+msgid "Side indent"
+msgstr ""
+
+#: ../inc/admin-page.php:321
+msgid "Indent in pixels from the left side of the post/page template. When aligning the right to pre-defined value is automatically added 900 pixels. Negative values ​​are permitted"
+msgstr ""
+
+#: ../inc/admin-page.php:324
+msgid "Display the <Download &laquo;Socialize It!&raquo; Plugin> icon"
+msgstr ""
+
+#: ../inc/admin-page.php:325
+msgid "Would be useful to visitors of your blog who wish install this plugin too. Added after all the icons"
+msgstr ""
+
+#: ../inc/admin-page.php:328
+#: ../lib/Config.php:323
+msgid "PowerInviter"
+msgstr ""
+
+#: ../inc/admin-page.php:330
+msgid "Do you want effortlessly boost the number of visitors, subscribers, affiliates, and sales?!"
+msgstr ""
+
+#: ../inc/admin-page.php:331
+msgid "New Social Marketing Tool will increase traffic to your blog"
+msgstr ""
+
+#: ../inc/admin-page.php:333
+msgid "PowerInviter represents a new generation of \"Tell a friend\" widgets with many additional \"PRO\" features and viral marketing principles"
+msgstr ""
+
+#: ../inc/admin-page.php:335
+msgid "Without interesting rewards, only a few visitors will feel the urge to tell their friends about your site, so PowerInviter creates motivation: people will get gifts for their recommendations!"
+msgstr ""
+
+#: ../inc/admin-page.php:336
+msgid "It is precisely this fact that explains the MULTIPLE EFFECTIVENESS of PowerInviter as compared with other \"Tell a friend\" solutions"
+msgstr ""
+
+#: ../inc/admin-page.php:340
+msgid "This button allows people to recommend any page (post) to their friends with the title and short page description (teaser)"
+msgstr ""
+
+#: ../inc/admin-page.php:341
+msgid "The average effectiveness of the recommendations emails is up to <strong>60%</strong>; such a result is impossible using any other kind of advertising"
+msgstr ""
+
+#: ../inc/admin-page.php:344
+msgid "Your \"Tell a friend\" message and the bonuses list are being created automatically with every click on the \"Recommend it\" button"
+msgstr ""
+
+#: ../inc/admin-page.php:345
+msgid "Click Here for a Live Demonstration"
+msgstr ""
+
+#: ../inc/admin-page.php:348
+msgid "To use the entire features and ability to change the \"Tell a friend\" message and bonuses list, you need to register at PowerInviter.com"
+msgstr ""
+
+#: ../inc/admin-page.php:349
+msgid "It is completely FREE! Click"
+msgstr ""
+
+#: ../inc/admin-page.php:349
+msgid "here"
+msgstr ""
+
+#: ../inc/admin-page.php:349
+msgid "to open an account"
+msgstr ""
+
+#: ../inc/admin-page.php:351
+msgid "After registering and creating a \"Tell a friend\" form, enter your username (login) and Form ID here"
+msgstr ""
+
+#: ../inc/admin-page.php:353
+msgid "Your PowerInviter Username (login)"
+msgstr ""
+
+#: ../inc/admin-page.php:354
+msgid "Your PowerInviter Form ID"
+msgstr ""
+
+#: ../inc/admin-page.php:356
+msgid "Save Settings!"
+msgstr ""
+
+#: ../inc/admin-page.php:364
+msgid "The plugin`s design based on "
+msgstr ""
+
+#: ../inc/admin-page.php:364
+msgid "the service author is"
+msgstr ""
+
+#: ../inc/SocializeIt.php:1
+msgid "Socialize It!"
+msgstr ""
+
+#: ../lib/Config.php:41
+msgid "Blogger"
+msgstr ""
+
+#: ../lib/Config.php:43
+msgid "Post in Blogger.com!"
+msgstr ""
+
+#: ../lib/Config.php:48
+msgid "BobrDobr"
+msgstr ""
+
+#: ../lib/Config.php:50
+msgid "Bobr It!"
+msgstr ""
+
+#: ../lib/Config.php:55
+msgid "Delicious"
+msgstr ""
+
+#: ../lib/Config.php:57
+msgid "Bookmark with Delicious!"
+msgstr ""
+
+#: ../lib/Config.php:62
+msgid "DesignBump"
+msgstr ""
+
+#: ../lib/Config.php:64
+msgid "Bump it!"
+msgstr ""
+
+#: ../lib/Config.php:69
+msgid "DesignFloat"
+msgstr ""
+
+#: ../lib/Config.php:71
+msgid "Float it!"
+msgstr ""
+
+#: ../lib/Config.php:76
+msgid "digg"
+msgstr ""
+
+#: ../lib/Config.php:78
+msgid "Add to digg!"
+msgstr ""
+
+#: ../lib/Config.php:83
+msgid "evernote"
+msgstr ""
+
+#: ../lib/Config.php:85
+msgid "Add to Evernote!"
+msgstr ""
+
+#: ../lib/Config.php:90
+msgid "facebook"
+msgstr ""
+
+#: ../lib/Config.php:92
+msgid "Share in Facebook!"
+msgstr ""
+
+#: ../lib/Config.php:97
+msgid "FriendFeed"
+msgstr ""
+
+#: ../lib/Config.php:99
+msgid "Add to FriendFeed!"
+msgstr ""
+
+#: ../lib/Config.php:104
+msgid "Google Bookmarks"
+msgstr ""
+
+#: ../lib/Config.php:106
+msgid "Bookmark at Google!"
+msgstr ""
+
+#: ../lib/Config.php:111
+msgid "Google Buzz"
+msgstr ""
+
+#: ../lib/Config.php:113
+msgid "Add to Google Buzz!"
+msgstr ""
+
+#: ../lib/Config.php:118
+msgid "identi"
+msgstr ""
+
+#: ../lib/Config.php:120
+msgid "Add to Identi.ca!"
+msgstr ""
+
+#: ../lib/Config.php:125
+msgid "juick"
+msgstr ""
+
+#: ../lib/Config.php:127
+msgid "Add to Juick!"
+msgstr ""
+
+#: ../lib/Config.php:132
+msgid "LinkedIn"
+msgstr ""
+
+#: ../lib/Config.php:134
+msgid "Add to Linkedin!"
+msgstr ""
+
+#: ../lib/Config.php:139
+msgid "LiveInternet"
+msgstr ""
+
+#: ../lib/Config.php:141
+msgid "Post in LiveInternet!"
+msgstr ""
+
+#: ../lib/Config.php:146
+msgid "LiveJournal"
+msgstr ""
+
+#: ../lib/Config.php:148
+msgid "Post in LiveJournal!"
+msgstr ""
+
+#: ../lib/Config.php:153
+msgid "Mail.Ru"
+msgstr ""
+
+#: ../lib/Config.php:155
+msgid "Share in MyWorld@Mail.Ru!"
+msgstr ""
+
+#: ../lib/Config.php:160
+msgid "memori"
+msgstr ""
+
+#: ../lib/Config.php:162
+msgid "Bookmark at Memori.ru!"
+msgstr ""
+
+#: ../lib/Config.php:167
+msgid "Mister Wong"
+msgstr ""
+
+#: ../lib/Config.php:169
+msgid "Bookmark at Mister Wong!"
+msgstr ""
+
+#: ../lib/Config.php:174
+msgid "mixx"
+msgstr ""
+
+#: ../lib/Config.php:176
+msgid "Add to Mixx!"
+msgstr ""
+
+#: ../lib/Config.php:181
+msgid "MySpace"
+msgstr ""
+
+#: ../lib/Config.php:183
+msgid "Add to MySpace!"
+msgstr ""
+
+#: ../lib/Config.php:188
+msgid "netvibes"
+msgstr ""
+
+#: ../lib/Config.php:190
+msgid "Add to Netvibes!"
+msgstr ""
+
+#: ../lib/Config.php:195
+msgid "newsvine"
+msgstr ""
+
+#: ../lib/Config.php:197
+msgid "Add to Newsvine!"
+msgstr ""
+
+#: ../lib/Config.php:202
+msgid "odnoclassniki"
+msgstr ""
+
+#: ../lib/Config.php:204
+msgid "Add to Odnoclassniki!"
+msgstr ""
+
+#: ../lib/Config.php:209
+msgid "pikabu"
+msgstr ""
+
+#: ../lib/Config.php:211
+msgid "Add to Pikabu!"
+msgstr ""
+
+#: ../lib/Config.php:216
+msgid "posterous"
+msgstr ""
+
+#: ../lib/Config.php:218
+msgid "Add to Posterous!"
+msgstr ""
+
+#: ../lib/Config.php:223
+msgid "reddit"
+msgstr ""
+
+#: ../lib/Config.php:225
+msgid "Add to Reddit!"
+msgstr ""
+
+#: ../lib/Config.php:230
+msgid "rutvit"
+msgstr ""
+
+#: ../lib/Config.php:232
+msgid "Add to RuTvit!"
+msgstr ""
+
+#: ../lib/Config.php:237
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../lib/Config.php:239
+msgid "Add to StumbleUpon!"
+msgstr ""
+
+#: ../lib/Config.php:244
+msgid "technorati"
+msgstr ""
+
+#: ../lib/Config.php:246
+msgid "Add to Technorati!"
+msgstr ""
+
+#: ../lib/Config.php:251
+msgid "tumblr"
+msgstr ""
+
+#: ../lib/Config.php:253
+msgid "Add to Tumblr!"
+msgstr ""
+
+#: ../lib/Config.php:258
+msgid "twitter"
+msgstr ""
+
+#: ../lib/Config.php:260
+msgid "Add to Twitter!"
+msgstr ""
+
+#: ../lib/Config.php:265
+msgid "vkontakte"
+msgstr ""
+
+#: ../lib/Config.php:267
+msgid "Share in Vkontakte!"
+msgstr ""
+
+#: ../lib/Config.php:273
+msgid "Yahoo! Bookmarks"
+msgstr ""
+
+#: ../lib/Config.php:275
+msgid "Bookmark at Yahoo!"
+msgstr ""
+
+#: ../lib/Config.php:280
+msgid "Yandex Bookmarks"
+msgstr ""
+
+#: ../lib/Config.php:282
+msgid "Bookmark at Yandex!"
+msgstr ""
+
+#: ../lib/Config.php:287
+msgid "Ya.ru"
+msgstr ""
+
+#: ../lib/Config.php:289
+msgid "Share in Ya.ru!"
+msgstr ""
+
+#: ../lib/Config.php:294
+msgid "youtube"
+msgstr ""
+
+#: ../lib/Config.php:296
+msgid "Watch on YouTube!"
+msgstr ""
+
+#: ../lib/Config.php:301
+msgid "flickr"
+msgstr ""
+
+#: ../lib/Config.php:303
+msgid "See photos on Flickr!"
+msgstr ""
+
+#: ../lib/Config.php:308
+msgid "Subscribe"
+msgstr ""
+
+#: ../lib/Config.php:310
+msgid "Subscribe to feed"
+msgstr ""
+
+#: ../lib/Config.php:315
+msgid "Print"
+msgstr ""
+
+#: ../lib/Config.php:317
+msgid "Print it!"
+msgstr ""
+
+#: ../lib/Config.php:326
+msgid "Tell a friend and get a gift!"
+msgstr ""
+
+#: ../lib/Config.php:331
+msgid "Google +1"
+msgstr ""
+
+#: ../lib/Config.php:333
+msgid "Recommend with Google +1!"
+msgstr ""
+
+#: ../lib/Config.php:343
+msgid "Back"
+msgstr ""
+
+#: ../lib/Config.php:344
+msgid "More"
+msgstr ""
+
+#: ../lib/Config.php:345
+msgid "Download plugin Socialize It!"
+msgstr ""
+
+#: ../lib/Test.php:23
+#, php-format
+msgid "The %s plugin requires PHP %s or newer. Contact your system administrator about updating your version of PHP."
+msgstr ""
+
+#: ../lib/Test.php:43
+#, php-format
+msgid "The %s plugin requires WordPress %s or newer."
+msgstr ""
+
+#: ../lib/Test.php:44
+#, php-format
+msgid "Your version is %s. Please,"
+msgstr ""
+
+#: ../lib/Test.php:46
+msgid "update your WordPress!"
+msgstr ""
+
