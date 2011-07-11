@@ -15,6 +15,17 @@ $mside = $opts['hb_mside'];
 $hblogo = $opts['hb_logo'];
 $hbyoutube = $opts['hb_youtube'];
 $hbflickr = $opts['hb_flickr'];
+$hbinviterusername = $opts['hb_inviterusername'];
+$hbinviterformid = $opts['hb_inviterformid'];
+$wp_lang = WPLANG;
+if ($wp_lang == 'ru_RU') {
+	$invdomain = 'invitemaster.ru';
+	$inviconname = 'invitemaster';
+}
+else {
+	$invdomain = 'powerinviter.com';
+	$inviconname = 'powerinviter';
+}
 ?>
 <script type='text/javascript'>
 
@@ -181,7 +192,7 @@ jQuery(document).ready(function() {
 		jQuery('#panel-mside').attr({style: 'dysplay:block;visibility:visible;'});
 	})
 	
-	jQuery('#option-gorizontal').click(function() {
+	jQuery('#option-horizontal').click(function() {
 		jQuery('#panel-float-li').toggle();
 		jQuery('#panel-mtop').toggle();
 		jQuery('#panel-mside').toggle();
@@ -241,6 +252,8 @@ jQuery(document).ready(function() {
 				hblogo: hblogo,
 				hbyoutube: hbyoutube,
 				hbflickr: hbflickr,
+				hbinviterusername: jQuery('input[name="inviterusername"]').val(),
+				hbinviterformid: jQuery('input[name="inviterformid"]').val(),
 				hb_admin_wpnonce: jQuery('input[name="hb_admin_wpnonce"]').val(),
 			};
 
@@ -264,7 +277,7 @@ jQuery(document).ready(function() {
 <div class="hb_container visible">
 <form action="" method="post" id="hbform" name="hbform">
 
-	<h3><?php _e('Point the size and select the icons you would like to use at your blog', Config::domain); ?>:</h3>
+	<h3><?php _e('Choose the size and icons which you would like to use at your blog', Config::domain); ?>:</h3>
 
 	<div id="icons">
 
@@ -281,7 +294,7 @@ jQuery(document).ready(function() {
 		<span class="tooltip" style="font-weight:bold;" title="<?php _e('You can change the order of the icons just dragging them with mouse', Config::domain); ?>.">!</span>
 
 		<ol id="dynamic">
-			
+				
 			<?php foreach ($services as $key=>$val) : ?>
 			<li<?php if (is_array($myicons)) { foreach ($myicons as $icn) : if ($icn == $key) echo ' class="selected"'; endforeach; } ?>><label for="<?php echo $key;?>"><input type="checkbox" name="icons" value="<?php echo $key;?>" id="<?php echo $key;?>" <?php if (is_array($myicons)) { foreach ($myicons as $icn) : if ($icn == $key) echo 'checked="checked"'; endforeach; } ?> /><div id="<?php echo $key;?>" style="background-image:url(<?php echo HB_IMG_URL; ?>icons-<?php echo $mysize; ?>.png);background-repeat:no-repeat;background-position:<?php echo $val[$mysize];?>;width:<?php echo $mysize; ?>px;height:<?php echo $mysize; ?>px;"></div><?php echo $val['name'];?></label></li>
 			<?php endforeach; ?>
@@ -292,27 +305,55 @@ jQuery(document).ready(function() {
 		
 	</div><!-- #icons -->
 
-	<h3><?php _e('Set the options', Config::domain); ?>:</h3>
+	<h3><?php _e('Options', Config::domain); ?>:</h3>
 
 		<ul id="options">
 			<li><strong><?php _e('Icons bar type', Config::domain); ?>:</strong>
 				<label><input id="option-floating" type="radio" name="panel" value="floating"<?php if ($mypanel == 'floating' || !$mypanel) echo ' checked="checked"'; ?> /> <?php _e('floating vertical', Config::domain); ?></label>
-				<label><input id="option-gorizontal" type="radio" name="panel" value="gorizontal"<?php if ($mypanel == 'gorizontal') echo ' checked="checked"'; ?> /> <?php _e('gorisontal (under a post/page)', Config::domain); ?></label> 
+				<label><input id="option-horizontal" type="radio" name="panel" value="horizontal"<?php if ($mypanel == 'horizontal') echo ' checked="checked"'; ?> /> <?php _e('horizontal (under a post/page)', Config::domain); ?></label> 
 			</li>
-			<li id="panel-mtop"<?php if ($mypanel == 'gorizontal') echo ' style="display:none;visibility:hidden;"'; ?>><strong><?php _e('Top indent', Config::domain); ?>: <span class="tooltip" title="<?php _e('Indent in pixels from the top of the visible screen area', Config::domain); ?>.">?</span></strong>
+			<li id="panel-mtop"<?php if ($mypanel == 'horizontal') echo ' style="display:none;visibility:hidden;"'; ?>><strong><?php _e('Top indent', Config::domain); ?>: <span class="tooltip" title="<?php _e('Indent in pixels from the top of the visible screen area', Config::domain); ?>.">?</span></strong>
 				<label><input type="text" name="mtop" style="margin-left:8px;width:75px;" value="<?php if (!$mtop) echo 0; else echo $mtop; ?>" /> px</label>
 			</li>
-			<li id="panel-float-li"<?php if ($mypanel == 'gorizontal') echo ' style="display:none;visibility:hidden;"'; ?>><strong><?php _e('Alignment', Config::domain); ?>: <span class="tooltip" title="<?php _e('Icons bar location about the page template', Config::domain); ?>.">?</span></strong>
-				<label><select id="panelfloat" name="panelfloat" style="margin-left:8px;width:75px;"><option value="left"<?php if (!$panelfloat || $panelfloat == 'left') echo ' selected="selected"'; ?>><?php _e('left', Config::domain); ?></option><option value="right"<?php if ($panelfloat == 'right') echo ' selected="selected"'; ?>><?php _e('right', Config::domain); ?></option></select></label>
+			<li id="panel-float-li"<?php if ($mypanel == 'horizontal') echo ' style="display:none;visibility:hidden;"'; ?>><strong><?php _e('Alignment', Config::domain); ?>: <span class="tooltip" title="<?php _e('Icons bar location about the page template', Config::domain); ?>.">?</span></strong>
+				<label><select id="panelfloat" name="panelfloat" style="margin-left:8px;width:75px;"><option value="left"<?php if (!$panelfloat || $panelfloat == 'left') echo ' selected="selected"'; ?>><?php _e('Left', Config::domain); ?></option><option value="right"<?php if ($panelfloat == 'right') echo ' selected="selected"'; ?>><?php _e('Right', Config::domain); ?></option></select></label>
 			</li>
-			<li id="panel-mside"<?php if ($mypanel == 'gorizontal') echo ' style="display:none;visibility:hidden;"'; ?>><strong><?php _e('Side indent', Config::domain); ?>: <span class="tooltip" title="<?php _e('Indent in pixels from the left side of the post/page template. When aligning the right to pre-defined value is automatically added 900 pixels. Negative values ​​are permitted', Config::domain); ?>.">?</span></strong>
+			<li id="panel-mside"<?php if ($mypanel == 'horizontal') echo ' style="display:none;visibility:hidden;"'; ?>><strong><?php _e('Side indent', Config::domain); ?>: <span class="tooltip" title="<?php _e('Indent in pixels from the left side of the post/page template. When aligning the right to pre-defined value is automatically added 900 pixels. Negative values ​​are permitted', Config::domain); ?>.">?</span></strong>
 				<label><input type="text" name="mside" style="margin-left:8px;width:75px;" value="<?php if (!$mside) echo 0; else echo $mside; ?>" /> px</label>
 			</li>
-			<?php $downloadmsg = sprintf(__('Add the button &laquo;Download the %s&raquo;', Config::domain), Config::plugin_name); ?>
+			<?php $downloadmsg = __('Display the <Download &laquo;Socialize It!&raquo; Plugin> icon', Config::domain); ?>
 			<li><label><strong><?php echo $downloadmsg; ?>: <span class="tooltip" title="<?php _e('Would be useful to visitors of your blog who wish install this plugin too. Added after all the icons', Config::domain); ?>.">?</span></strong><input type="checkbox" id="hblogo" name="hblogo"<?php if ($hblogo == 'yes' || !$hblogo) echo ' checked="checked"'; ?> value="yes" style="margin-left:13px;" /></label></li>
 		</ul>
 
-	<h3><a href="#" id="hbsocializesubmit"><?php _e('Save your settings', Config::domain); ?></a></h3>
+	<h3><?php _e('PowerInviter', Config::domain); ?>:</h3>
+	<p style="font-weight:bold;color:#7071be;font-size:11pt">
+	<?php _e('Do you want effortlessly boost the number of visitors, subscribers, affiliates, and sales?!', Config::domain); ?><br />
+	<?php _e('New Social Marketing Tool will increase traffic to your blog', Config::domain); ?>.
+	</p>
+	<p><?php _e('PowerInviter represents a new generation of "Tell a friend" widgets with many additional "PRO" features and viral marketing principles', Config::domain); ?>.</p>
+	<p>
+	<?php _e('Without interesting rewards, only a few visitors will feel the urge to tell their friends about your site, so PowerInviter creates motivation: people will get gifts for their recommendations!', Config::domain); ?><br />
+	<?php _e('It is precisely this fact that explains the MULTIPLE EFFECTIVENESS of PowerInviter as compared with other "Tell a friend" solutions', Config::domain); ?>.
+	</p>
+	<p>
+	<img src="http://static.<?php echo $invdomain; ?>/images/<?php echo $inviconname; ?>_32x32.gif" align="left" style="margin-right:7px" />
+	<?php _e('This button allows people to recommend any page (post) to their friends with the title and short page description (teaser)', Config::domain); ?>.<br />
+	<?php _e('The average effectiveness of the recommendations emails is up to <strong>60%</strong>; such a result is impossible using any other kind of advertising', Config::domain); ?>!
+	</p>
+	<p>
+	<?php _e('Your "Tell a friend" message and the bonuses list are being created automatically with every click on the "Recommend it" button', Config::domain); ?>.<br />
+	<strong><a href="http://www.<?php echo $invdomain; ?>/form/?url=<?php echo urlencode(site_url()); ?>&title=<?php urlencode('Socialize It!'); ?>&promo=reedycat&engine=blog&sitetitle=<?php urlencode(bloginfo('name')); ?>" target="_blank"><?php _e('Click Here for a Live Demonstration', Config::domain); ?></a></strong>
+	</p>
+	<p>
+	<?php _e('To use the entire features and ability to change the "Tell a friend" message and bonuses list, you need to register at PowerInviter.com', Config::domain); ?>.<br />
+	<?php _e('It is completely FREE! Click', Config::domain); ?> <a href="http://www.<?php echo $invdomain; ?>/promo/reedycat" target="_blank"><?php _e('here', Config::domain); ?></a> <?php _e('to open an account', Config::domain); ?>.</p>
+	<p>
+	<strong><?php _e('After registering and creating a "Tell a friend" form, enter your username (login) and Form ID here', Config::domain); ?>:</strong>
+	</p>
+	<label><p style="margin:0;"><?php _e('Your PowerInviter Username (login)', Config::domain); ?>:</p><input type="text" name="inviterusername" style="width:175px;color:#145EA6;" value="<?php if ($hbinviterusername) echo $hbinviterusername; ?>" /></label><br />
+	<label><p style="margin:10px 0 0 0;"><?php _e('Your PowerInviter Form ID', Config::domain); ?>:</p><input type="text" name="inviterformid" style="width:175px;color:#145EA6;" value="<?php if ($hbinviterformid) echo $hbinviterformid; ?>" /></label>
+	<br /><br />
+	<h3><a href="#" id="hbsocializesubmit"><?php _e('Save Settings!', Config::domain); ?></a></h3>
 	
 	<?php wp_nonce_field( 'hb_admin_options', 'hb_admin_wpnonce' ) ?>
 

@@ -30,6 +30,12 @@ if ( !class_exists('Config') ) :
 			$opts = SocializeIt::get_settings();
 			$hbyoutubeaccname = $opts['hb_youtube'];
 			$hbflickraccname = $opts['hb_flickr'];
+			$hbinviterusername = $opts['hb_inviterusername'];
+			$hbinviterformid = $opts['hb_inviterformid'];
+			$wp_lang = WPLANG;
+			if ($wp_lang == 'ru_RU') $invdomain = 'invitemaster.ru';
+			else $invdomain = 'powerinviter.com';
+			$blogname = urlencode(get_bloginfo());
 		
 			$services = array();
 			$services['blogger']['name'] = __('Blogger', self::domain);
@@ -313,6 +319,21 @@ if ( !class_exists('Config') ) :
 			$services['print']['32'] = '-64px -160px';
 			$services['print']['24'] = '-48px -120px';
 			$services['print']['16'] = '-32px -80px';
+			
+			$services['powerinviter']['name'] = __('PowerInviter', self::domain);
+			if ($hbinviterusername && $hbinviterformid) $services['powerinviter']['url'] = 'http://www.'.$invdomain.'/form/'.$hbinviterusername.'_'.$hbinviterformid.'/?url=\'+u+\'&title=\'+t+\'&promo=reedycat&engine=blog&sitetitle='.$blogname;
+			else $services['powerinviter']['url'] = 'http://www.'.$invdomain.'/form/?url=\'+u+\'&title=\'+t+\'&promo=reedycat&engine=blog&sitetitle='.$blogname;
+			$services['powerinviter']['title'] = __('Tell a friend and get a gift!', self::domain);
+			$services['powerinviter']['32'] = '-128px -224px';
+			$services['powerinviter']['24'] = '-96px -168px';
+			$services['powerinviter']['16'] = '-64px -112px';
+			
+			$services['plusone']['name'] = __('Google +1', self::domain);
+			$services['plusone']['url'] = '';
+			$services['plusone']['title'] = __('Recommend with Google +1!', self::domain);
+			$services['plusone']['32'] = '-160px -224px';
+			$services['plusone']['24'] = '-120px -168px';
+			$services['plusone']['16'] = '-80px -112px';
 			
 			return $services;
 			
