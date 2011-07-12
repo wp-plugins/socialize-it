@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Socialize It! WordPress plugin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-11 16:02+0200\n"
-"PO-Revision-Date: 2011-07-11 16:05+0200\n"
+"PO-Revision-Date: 2011-07-12 10:25+0200\n"
 "Last-Translator: Игорь <znamensky98@gmail.com>\n"
 "Language-Team: wpsells.com <info@wpsells.com>\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,6 @@ msgid "Settings failed - try later, please"
 msgstr "Неудалось сохранить настройки - попробуйте сделать это позже"
 
 #: ../inc/admin-page.php:280
-#, fuzzy
 msgid "Choose the size and icons which you would like to use at your blog"
 msgstr "Выберите размер и отметьте иконки сервисов, которые хотите использовать на своем блоге"
 
@@ -120,14 +119,12 @@ msgid "Icons bar location about the page template"
 msgstr "Расположение панели с кнопками относительно шаблона страницы"
 
 #: ../inc/admin-page.php:319
-#, fuzzy
 msgid "Left"
-msgstr "слева"
+msgstr "Слева"
 
 #: ../inc/admin-page.php:319
-#, fuzzy
 msgid "Right"
-msgstr "справа"
+msgstr "Справа"
 
 #: ../inc/admin-page.php:321
 msgid "Side indent"
@@ -215,9 +212,8 @@ msgid "Your PowerInviter Form ID"
 msgstr "ID формы рекомендации"
 
 #: ../inc/admin-page.php:356
-#, fuzzy
 msgid "Save Settings!"
-msgstr "Сохранить настройки"
+msgstr "Сохранить настройки!"
 
 #: ../inc/admin-page.php:364
 msgid "The plugin`s design based on "
@@ -228,9 +224,8 @@ msgid "the service author is"
 msgstr "автор скрипта"
 
 #: ../inc/SocializeIt.php:1
-#, fuzzy
 msgid "Socialize It!"
-msgstr "Socialize It!: Установки"
+msgstr "Socialize It! Установки"
 
 #: ../lib/Config.php:41
 msgid "Blogger"
